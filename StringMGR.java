@@ -5,7 +5,7 @@ public class StringMGR
 	 private static String[] str;
 	 private static int index = 0;
 	 private String tempstr = new String();
-	 private int max;
+	 private static int max;
 	 
 	StringMGR()
 	{
