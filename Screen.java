@@ -6,9 +6,6 @@ import javax.swing.JPanel;
 
 public class Screen extends JPanel 
 {
-	/**
-	 * JAVA made me do it
-	 */
 	private static final long serialVersionUID = 1L;
 	
 	
