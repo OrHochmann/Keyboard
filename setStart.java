@@ -24,7 +24,7 @@ public class setStart
 	
 	private void setScreen()
 	{
-		JFrame frame = new JFrame("JAVA keyboard");
+	JFrame frame = new JFrame("JAVA keyboard");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(x, y);
         frame.setVisible(true);
