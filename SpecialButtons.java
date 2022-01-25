@@ -81,21 +81,21 @@ public class SpecialButtons extends JPanel
 					switch (specialStr)
 					{
 					case "Caps": boolSwitch();
-								 break;
+						     break;
 								 
-					case "Shift": 	chaneColor(getBackground());
-									boolSwitch();
-					 				break;
+					case "Shift": chaneColor(getBackground());
+						      boolSwitch();
+					 	      break;
 					 				
-					case "Backspace": 	st.setBackSpace();
-										Screen.p2.goe(Buttons.x, Buttons.y);
-										break;
+					case "Backspace": st.setBackSpace();
+							  Screen.p2.goe(Buttons.x, Buttons.y);
+							  break;
 										
-					case "Tab": 	st.addVal("  ");
-					 				break;
+					case "Tab": st.addVal("  ");
+					 	    break;
 					 				
 					case "Space" : st.addVal(" ");
-									break;
+						       break;
 									
 					case "Enter": 	st.setEnter();
 					}
@@ -108,7 +108,6 @@ public class SpecialButtons extends JPanel
 	
 	
 	private void chaneColor(Color background) {
-		// TODO Auto-generated method stub
 	}
 	private void boolSwitch()
 	{
